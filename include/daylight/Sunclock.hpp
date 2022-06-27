@@ -1,9 +1,11 @@
 #ifndef DAYLIGHT_SUNCLOCK_HPP
 #define DAYLIGHT_SUNCLOCK_HPP
 
+#include <daylight/Sunclock_global.hpp>
+
 #include <ctime>
 
-class Sunclock {
+class DAYLIGHT_EXPORT Sunclock {
 public:
   Sunclock(double const &latitude_, double const &longitude_, double const &tz_offset_ = 0);
 
